@@ -1,0 +1,20 @@
+{
+    "name": "hametuha/corpus2wp",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Hametuha",
+            "email": "info@hametuha.co.jp"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "sunra/php-simple-html-dom-parser": "^1.5"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hametuha\\Corpus2WP": "app"
+        }
+    }
+}
